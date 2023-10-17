@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(
-    const MyApp()
+void main() => runApp(MaterialApp(
+  home: MyApp(),
+  debugShowCheckedModeBanner: false,
+)
+
+
 );
 
 class MyApp extends StatelessWidget {
@@ -9,8 +13,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Buzzer',
+    return Scaffold(
+      appBar: AppBar(
+        leading: IconButton(icon: Icon(Icons.menu), onPressed: (){},),
+        title: Text('Buzzer'),
+      ),
     );
   }
 }
