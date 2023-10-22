@@ -5,12 +5,6 @@ A flutter project with multiple widgets.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It consists of widgets like NavigationDrawer, IconButton, UserAccount Widget etc.
+The purpose of creating this project is to increase my experience with flutter and make certain features available for my next project or for anyone who needs it.
+I will be adding the floatingMenu widget also, almost making it a complete application that just needs to be utilized for a speicific purpose.
