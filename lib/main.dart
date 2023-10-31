@@ -23,17 +23,17 @@ class MyApp extends StatelessWidget {
               currentAccountPicture: CircleAvatar(backgroundColor: Colors.yellowAccent,),
 
             ),
-            ListTile(leading: Icon(Icons.home), title: Text('Home'), onTap: (){},),
-            ListTile(leading: Icon(Icons.bookmark), title: Text('Bookmarks'), onTap: (){},),
+            ListTile(leading: Icon(Icons.man), title: Text('Home'), onTap: (){},),
+            ListTile(leading: Icon(Icons.bookmark), title: Text('Shop'), onTap: (){},),
             ListTile(leading: Icon(Icons.support_agent), title: Text('Contact Us'), onTap: (){},),
 
             Padding(
               padding: const EdgeInsets.all(14.0),
               child: Text('Labels'),
             ),
-            ListTile(leading: Icon(Icons.label), title: Text('Red'), onTap: (){},),
-            ListTile(leading: Icon(Icons.label), title: Text('Green'), onTap: (){},),
-            ListTile(leading: Icon(Icons.label), title: Text('Blue'), onTap: (){},),
+            ListTile(leading: Icon(Icons.label, color: Colors.red,), title: Text('Red', style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold),), onTap: (){},),
+            ListTile(leading: Icon(Icons.label, color: Colors.green,), title: Text('Green', style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),), onTap: (){},),
+            ListTile(leading: Icon(Icons.label, color: Colors.blue,), title: Text('Blue', style: TextStyle(color: Colors.blue, fontWeight: FontWeight.bold),), onTap: (){},),
           ],
         ) ,
         elevation: 140.0,
