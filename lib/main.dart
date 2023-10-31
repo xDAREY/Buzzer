@@ -24,8 +24,8 @@ class MyApp extends StatelessWidget {
 
             ),
             ListTile(leading: Icon(Icons.home), title: Text('Home'), onTap: (){},),
-            ListTile(leading: Icon(Icons.shopping_bag), title: Text('Shop'), onTap: (){},),
-            ListTile(leading: Icon(Icons.favorite), title: Text('Favorites'), onTap: (){},),
+            ListTile(leading: Icon(Icons.bookmark), title: Text('Bookmarks'), onTap: (){},),
+            ListTile(leading: Icon(Icons.support_agent), title: Text('Contact Us'), onTap: (){},),
 
             Padding(
               padding: const EdgeInsets.all(14.0),
@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
 
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Icon(Icons.add),
+        child: Icon(Icons.call),
       ),
 
       bottomNavigationBar: BottomAppBar(
@@ -133,7 +133,7 @@ class MyApp extends StatelessWidget {
                   ), Text(
                     'Settings',
                     style: TextStyle(
-                        color: Colors.white)
+                        color: Colors.white),
                   )
                 ],
               ),
