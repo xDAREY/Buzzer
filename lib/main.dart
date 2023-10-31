@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.yellowAccent,
+      backgroundColor: Colors.white,
       appBar: AppBar(title: Text('Buzzer')),
       drawer: Drawer(
         child: ListView(
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
             UserAccountsDrawerHeader(
               accountEmail: Text('FlutterDevDare@coding.com'),
               accountName: Text('Dare'),
-              currentAccountPicture: CircleAvatar(backgroundColor: Colors.red,),
+              currentAccountPicture: CircleAvatar(backgroundColor: Colors.yellowAccent,),
 
             ),
             ListTile(leading: Icon(Icons.home), title: Text('Home'), onTap: (){},),
@@ -37,6 +37,30 @@ class MyApp extends StatelessWidget {
           ],
         ) ,
         elevation: 140.0,
+      ),
+
+      body: ListView(
+        padding: EdgeInsets.all(8.0),
+        children: [
+          ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+           ListTile(leading: Icon(Icons.man, size: 40), title: Text('Dare',style: TextStyle(fontWeight: FontWeight.bold),), subtitle: Text('Still getting a hang of it', style: TextStyle(fontWeight: FontWeight.bold)),trailing: Icon(Icons.looks_one)),
+
+        ],
       ),
 
       floatingActionButton: FloatingActionButton(
@@ -56,10 +80,10 @@ class MyApp extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Icon(
-                    Icons.home,
+                    Icons.chat,
                       color: Colors.white
                   ), Text(
-                    'Home',
+                    'Chat',
                     style: TextStyle(
                         color: Colors.white)
                   )
@@ -72,10 +96,10 @@ class MyApp extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Icon(
-                    Icons.collections,
+                    Icons.feed,
                       color: Colors.white
                   ), Text(
-                    'Collections',
+                    'Feeds',
                     style: TextStyle(
                         color: Colors.white)
                   )
@@ -88,10 +112,10 @@ class MyApp extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Icon(
-                    Icons.shopping_cart,
+                    Icons.interests,
                       color: Colors.white
                   ), Text(
-                    'Cart',
+                    'Interests',
                     style: TextStyle(
                         color: Colors.white),
                   )
