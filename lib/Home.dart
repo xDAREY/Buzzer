@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
               height:  200,
               color: Colors.green,
             ),
-git
+
             Container(
               width: 200,
               height:  100,
